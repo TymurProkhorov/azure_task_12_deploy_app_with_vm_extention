@@ -48,7 +48,6 @@ New-AzVm `
 
 Write-Host "Deploying Custom Script Extension to install the web app..."
 
-# Replace with your GitHub username
 $githubUsername = "TymurProkhorov"
 $scriptUrl = "https://raw.githubusercontent.com/$githubUsername/azure_task_12_deploy_app_with_vm_extention/deploy-aap-via-extension/install-app.sh"
 
