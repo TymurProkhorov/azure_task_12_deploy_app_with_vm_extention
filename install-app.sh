@@ -14,7 +14,7 @@ apt-get install python3-pip git -yq
 cd /tmp
 # Clone your fork of the repository
 # Replace <your-gh-username> with your actual GitHub username
-git clone https://github.com/Tim/azure_task_12_deploy_app_with_vm_extention.git
+git clone https://github.com/TymurProkhorov/azure_task_12_deploy_app_with_vm_extention.git
 
 # Copy app files to /app directory
 mkdir -p /app
