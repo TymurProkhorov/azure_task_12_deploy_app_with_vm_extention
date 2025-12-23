@@ -49,7 +49,7 @@ New-AzVm `
 Write-Host "Deploying Custom Script Extension to install the web app..."
 
 $githubUsername = "TymurProkhorov"
-$scriptUrl = "https://raw.githubusercontent.com/$githubUsername/azure_task_12_deploy_app_with_vm_extention/deploy-aap-via-extension/install-app.sh"
+$scriptUrl = "https://raw.githubusercontent.com/$githubUsername/azure_task_12_deploy_app_with_vm_extention/deploy-app-via-extension/install-app.sh"
 
 # Wait a bit for VM to be fully ready
 Start-Sleep -Seconds 30
